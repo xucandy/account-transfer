@@ -4,4 +4,5 @@ type Transfer @entity {
   blockNumber: BigInt # The block height of the transfer
   from: String! # The account that transfers are made from
   to: String! # The account that transfers are made to
+  timestamp: Date
 }
